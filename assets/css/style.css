@@ -1,0 +1,33 @@
+:root {
+    --blue-gray: #30384b;
+    --powder-blue: #67d0e2;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .stylebox {
+      background-color: var(--powder-blue);
+      color: var(--blue-gray);
+
+}
+
+  header {
+      background-color: var(--blue-gray);
+      color: var(--powder-blue);
+      display: flex;
+      justify-content: space-between;
+  }
+
+  header nav {
+      
+
+  }
+
+  header nav ul {
+      list-style: none;
+      
+  }
