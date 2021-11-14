@@ -82,7 +82,7 @@
 
   main {
     display: flex;
-    margin: 20px 100px 20px 0px;
+    margin: 50px 100px 50px 0px;
    
 
   }
@@ -99,6 +99,8 @@
 
   .bio {
     width: 75%;
+    color: var(--blue-gray);
+    font-size: 26px;
   }
 
   .work {
@@ -111,7 +113,6 @@
   .work article {
     margin: 1%;
     border: 5px solid var(--powder-blue);
-    background-image: url('../images/jeremy-bishop-iftBhUFfecE-unsplash.jpg');
     opacity: .7;
     position: relative;
   }
@@ -128,12 +129,20 @@
 
   .work .work-lg {
     height: 400px;
-    width: 100%;        
+    width: 100%;       
+     
   }
 
   .work .work-sm {
     width: 48%;
     height: 150px;
+  }
+
+  .img-surfreaport {
+    height: 100%;
+    width: 100%;
+    /*background-image: url('../images/silas-baisch-OCzvgBqCJKY-unsplash.jpg');*/
+    background-color: yellow;
   }
 
 
@@ -151,14 +160,14 @@ footer .contact-info {
 }
 
 footer .contact-info .contact-item {
-  /*display: inline;*/
   margin: 20px;
   border-bottom: 5px solid var(--blue-gray);
   padding: 10px;
+  display: flex;
+  align-items: center;
 }
 
 footer .contact-info .contact-item a {
   text-decoration: none;
   color: var(--blue-gray);
-  
 }
