@@ -152,10 +152,17 @@
   .work-lg img {
     height: 100%;
     width: 100%;
-    background-image: url(https://user-images.githubusercontent.com/89751266/146664325-27e406be-2110-4bce-bcfd-c20662d5e80d.png);/*url('../images/silas-baisch-OCzvgBqCJKY-unsplash.jpg');*/
     background-size: cover;
     background-attachment: fixed;
     opacity: .7;
+  }
+
+  #look-me-up {
+    background-image: url('../images/look-me-up.jpg');
+  }
+  
+  #dinner-for-you {
+    background-image: url(https://user-images.githubusercontent.com/89751266/146664325-27e406be-2110-4bce-bcfd-c20662d5e80d.png);/*url('../images/silas-baisch-OCzvgBqCJKY-unsplash.jpg');*/
   }
 
   .work-sm img {
